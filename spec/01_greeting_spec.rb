@@ -21,5 +21,5 @@ require_relative "../lib/greeting.rb"
 def mymethod
   puts "Hi! I'm HAL, what's your name?"
   name = gets.strip
-  greeting(name)
+  greeting(Don)
 end
