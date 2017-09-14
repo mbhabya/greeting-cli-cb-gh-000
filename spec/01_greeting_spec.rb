@@ -16,8 +16,10 @@ require_relative "../lib/greeting.rb"
   #context '#greeting' do
   #  it 'takes in an argument of a persons name' do
   #    allow($stdout).to receive(:puts)
-      
+
     #  expect{greeting("Bobby")}.to_not raise_error
-
-
-
+def mymethod
+  puts "Hi! I'm HAL, what's your name?"
+  name = gets.strip
+  greeting(name)
+end
